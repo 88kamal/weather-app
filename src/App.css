@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+body{
+  /* background: linear-gradient(rgba(255, 72, 0, 0.604), rgba(0, 0, 223, 0.574), rgba(164, 25, 195, 0.472));
+  background-repeat: no-repeat;
+  background-size: contain; */
+  background: rgba(255, 217, 0, 0.822);
 }
+.weather{
+  /* background: linear-gradient(rgba(255, 72, 0, 0.725), rgba(0, 0, 223, 0.7), rgba(25, 169, 195, 0.472)); */
+  /* background-color: rgb(32, 196, 237); */
+  background: url('https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  padding: 12px;
+  margin: 34px;
+  border-radius: 23px;
+  border: 3px solid rgb(0, 0, 0);
+  padding: 10px;
+  box-shadow: 10px 10px #0e42e0b7;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.temp {
+  height: 150px;
+    width: 157px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.input{
+  border: none;
+  padding: 8px 50px 8px  20px;
 }
-
-.App-link {
-  color: #61dafb;
+.city_name{ 
+   font-family: 'Bebas Neue', cursive;
+   font-size: 53px;
 }
+.city_temp{
+  font-size: 93px;
+  font-family: 'Anton', sans-serif;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
 }
